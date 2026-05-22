@@ -1,0 +1,12 @@
+¿Por qué un sistema de delivery usa Queue para los pedidos pero Stack para la bitácora? ¿Qué problema operativo surgiría si invertimos las estructuras?
+si se usara stack en el delivery al momento de sacar elementos de la cola se sacaria el ultimo añadido
+
+
+¿Por qué es obligatorio verificar Count == 0 antes de Dequeue() o Pop()? ¿Qué ocurre en ejecución si se omite esta validación?
+si no se verifica el programa intenta sacar un objeto donde no hay y se rompe
+
+En el método Deshacer, ¿por qué es necesario analizar el texto con .StartsWith() antes de revertir? ¿Qué error de estado evitaría esto?
+
+
+¿Qué ventaja tiene entregar mediante Fork + Pull Request en lugar de un archivo comprimido? ¿Cómo facilita la evaluación, la trazabilidad y la retroalimentación?
+su principal ventaja seria su facilidad al ver quien subio que archivos y su facilidad al revisarlo
