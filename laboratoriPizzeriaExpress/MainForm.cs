@@ -148,7 +148,7 @@ namespace laboratoriPizzeriaCampusExpress
                 lstBitacora.Items.Add("(Sin acciones registradas)");
 
             // Actualizar contador
-            lblContador.Text = string.Format("Pedidos: {0} |Premiun: {0} | Bitácora: {1}",
+            lblContador.Text = string.Format("Pedidos: {0} |Premiun: {1} | Bitácora: {2}",
                 colaPedidos.Count,Premiun.Count, pilaBitacora.Count);
         }
         
